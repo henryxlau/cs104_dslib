@@ -1,0 +1,20 @@
+Part (a):
+Every action line in a makefile must start with a:
+ANSWER: 1.) TAB
+
+Part (b):
+Which action(s) will get called? What compiler command(s) with what exact parame
+ters will get executed as a result of the action(s)?
+ANSWER: make clean =  -f $(ODIR)/*.o *~ shape1 shape2 $(IDIR)/*~
+		parameters: *.o (will create respected output files)
+	make shape1 = $(CC) -o $@ $^ $(CFLAGS) $(LIBS)
+		parameters: -o $@ (to put output of the compilation in the file named on the left side of the :), $^ (to put output of the compilation in the file named on the right side of the :)
+
+Part (c):
+What is the purpose of a .PHONY rule?
+ANSWER: .PHONY is used to tell the Make that the next command (usually "clean") is not associated with files. This allows you to be able to run "make clean" even if there was a file named clean.
+
+Part (d):
+What are acceptable names for a makefile? Select all that applies.
+ANSWER: Makefile
+	makefile

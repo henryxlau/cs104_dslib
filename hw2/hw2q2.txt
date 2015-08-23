@@ -1,0 +1,23 @@
+Part (a):
+ANSWER: The status on the README.md file is that our master branch is going to be up-to-date with the origin.
+
+Part (b):
+ANSWER: The status on the README.md is that there has been a change to the file and has not been staged to commit, and the fun_problem.txt is an untracked file that needs to be added to the origin.
+
+Part (c):
+ANSWER: The status of the README.md and fun_problem.txt are that they have been staged to be commited to the origin.
+
+Part (d):
+ANSWER: The status of the README.md and fun_problem.txt would show that there has been a change in the files and has not been stated to commit, but there is an initial commit to the master branch and it will notify that we are ahead of orgin by 1 commit.
+
+Part (e):
+ANSWER: The README.md will be staged to be commited to the origin. The fun_problem.txt will just not show up to be added or commit. Also the fun_problem.txt will now be a blank .txt where all the data has been taken out because we used "git checkout -- <FILE>".
+
+Part (f):
+ANSWER: The status on the README.md is that it will first show that there was changes before that has been commited and ready to be pushed, but also it sees that the README.md has been edited and now shows us that there has been changes that have not been commited. This is because we have previous commits that have not been pushed but we edited the file again so there are files that have not been staged for commit.
+
+Part (g):
+ANSWER: Markdown is easy
+	Markdown is too easy
+	Fancy git move
+Those are the last three lines that will be seen if README.md file was commited and pushed.

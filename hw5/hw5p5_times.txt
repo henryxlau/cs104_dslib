@@ -1,0 +1,22 @@
+Linked List:
+Insert from front: 0.0030 seconds.
+Insert from back: 5.0950 seconds.
+
+Array Plus One:
+Insert from front: 2.6040 seconds.
+Insert from back: 1.4400 seconds.
+
+Array Plus Ten Percent:
+Insert from front: 1.2770 seconds.
+Insert from back: 0.0020 seconds.
+
+Array Double:
+Insert from front: 1.2600 seconds.
+Insert from back: 0.0010 seconds.
+
+EXPLAINATION:
+For LinkedList, the fastest time is inserting at the head which would be constant time (O(1)), since we have a head pointer and just insert at the head. Inserting at the back, the runtime would be be O(n) because it has to move through all the items then insert.
+
+For all the ArrayList, the fastest insert time is from the back because we know exacty where the array ends, so we directly jump to the spot to insert and not have to move anything. Inserting from the front is lower because we would have to move all the values down one stop so the new value is at the beginning.
+
+The difference between the runtimes of PlusOneArrayList, PlusTenArrayList, and DoublingArrayList, is produced from resizing the area. The type of array that needs to resize the lease will be faster because it doesn't have to go through copying the ArrayList again as it has to resize to a bigger array.

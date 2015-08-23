@@ -1,0 +1,19 @@
+Part (a):
+ANSWERS: 1. Looking up information relevant to the course online.
+	 2. Talking to classmates about the problems.
+	 5. Asking the course staff for help.
+
+Part (b):
+ANSWERS: 2. emacs
+	 3. Eclipse
+	 4. vim
+	 5. Microsoft Visual Studio
+
+Part (c):
+ANSWERS: 3. Each student can submit up to 3 homeworks a day late for full credit.
+
+Part (d):
+ANSWERS: 2. There is an hour grace period per assignment for 50% credit.
+
+Part (e):
+ANSWERS: 3. I can use any complier I want, but the submission has to work with g++ in the end.

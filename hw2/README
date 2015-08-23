@@ -1,0 +1,7 @@
++ For hw2q1 and hw2q2, see answers by opening the text files.
+
++ To compile both programs at once type "make" in terminal and it will make both files.
+
++ After all file are compiled. To execute hw2q4 type "./hw2q4 hw2q4.txt B" where you can choose from letters A/B/C. 
+
++ To execute hw2q5 type "./hw2q5 hw2q5.txt" NOTE: for some reason I was able to get all the right outputs for all the different maps on visual studio but running in termial, I was getting weird output numbers.

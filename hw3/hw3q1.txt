@@ -1,0 +1,8 @@
+(B) break 15
+    break factorial(int)
+
+(C) 1.) The bug was that the int i was set to start at 0 and anything multiplied by zero will always be zero.
+    2.) The sequence of commands I used to debugare: break 15, break factoral, r, n, print i, n, print num, print i, n, print i, print num, n, print i, print n, q.
+
+(D) 1.) The bug in factorial() is that the variable num was being used and changed through-out the loop. To fix this we have to add a new variable and we initialize that variable to start 1.
+    2.) The sequence of commands I used to debug are: break 15, break factoral, r, n , n, print num, n, print num, print i, n, print num, n, print num, n, print num, n, print num, print i, n, print n, q.

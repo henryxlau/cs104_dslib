@@ -1,0 +1,15 @@
++ For List(), the runtime is theta(1). This is because this function only initializes the head and tail to NULL. With that, there is no loop for the function so it is constant.
+
++ For ~List(), the runtime is theta(n). This is because the worst case for this function is that the loops to the end of the list with can contain n number of items. Therefore it is theta(n).
+
++ For size(), the runtime is theta(n). This is because it is going through the whole list and counting. Going through the whole list, it may contain n number of items which means the function with loop n number of times and theta(n) is the worst case runtime.
+
++ For insert(int position), the runtime is theta(n) because the worst case is that you want to insert at the end of the list which is n number of items. Also, the insertion could be out of range and the while loop would have to go through n number of items and then output that it is out of range.
+
++ For remove(int position), the runtime is theta(n) because the same/similar reasons as insert(int position). There may be a chance that you have to remove at the end of the list.
+
++ For set(int position, const T & val), the runtime is theta(n) because of similar reasons to insert and remove. There may be a chance that you may have to set the last item of the list and that would be n number of times.
+
++ For get(int position), the runtime is theta(n) because of similar reasons to insert, remove, and set. There might be a chance that you have to get the last item of the list and that would be n number of items that you have to interate through.
+
++ OVERALL! The list should have a runtime of theta(n) because adding all the runtimes of for the functions. The largest runtime is theta(n).

@@ -1,0 +1,2 @@
+The insert times seems about right it fluctuates a bit but stays in the general area.
+My remove times seems to be weird. There might be something wrong with my remove.

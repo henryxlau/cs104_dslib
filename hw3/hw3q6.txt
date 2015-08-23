@@ -1,0 +1,15 @@
++ The runtime for the list is theta(n) as we found out in hw3q4.txt.
+
++ For Map(), the runtime is theta(1). This is because this function is just only creating the list. With that, there is no loop for the function so it is constant.
+
++ For ~Map(), the runtime is theta(n). This is because the worst case for this function is that the loops to the end of the list with can contain n number of items. Therefore it is theta(n).
+
++ For size(), the runtime is theta(n). This is because it is going through the whole list and counting. Going through the whole list, it may contain n number of items which means the function with loop n number of times and theta(n) is the worst case runtime.
+
++ For add(const keyType & key, const valueType & value), the runtime is theta(n) because there is a check to see if there is the same key in the list, so it would have to go through the entire list that may contain n number of mapNodes. After it would call the insert of the list and then that runtime will be added to the current runtime making it still a runtime of theta(n).
+
++ For remove(const keyType & key), the runtime is theta(n) because the same/similar reasons as insert function. There may be a chance that you have to remove at the end of the list.
+
++ For get(const keyType & key), the runtime is theta(n) because of similar reasons to insert, and remove. There might be a chance that you have to get the last item of the list and that would be n number of mapNodes that you have to interate through.
+
++ OVERALL! The list should have a runtime of theta(n) because adding all the runtimes of for the functions. The largest runtime is theta(n).

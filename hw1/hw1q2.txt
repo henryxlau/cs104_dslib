@@ -1,0 +1,11 @@
+Part (a):
+ANSWERS: 1. Git Bash (Windows)
+	 3. Terminal (Mac or Linux)
+
+Part (b):
+ANSWERS: 1. git add hw1q2b.cpp
+	    git commit -m "commit hw1q2b"
+	 2. git log -p -3
+
+Part (c):
+ANSWERS: It will not let you commit because it is missing a non-optional message (ex. git commit -m "non-optional commit message"), so it will now ask you to input a message to be able to commit. If message was present, then it will commit those three files into your repository history.
